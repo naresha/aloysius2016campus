@@ -1,0 +1,25 @@
+apply plugin: "java"
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+   
+    compile 'org.slf4j:slf4j-api:1.7.12'
+
+	// Spock Framework basic dependencies:
+	testCompile "org.codehaus.groovy:groovy-all:2.4.7"
+	// The version have to be compatible with Groovy:
+	testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+
+
+}
+
+task wrapper(type: Wrapper) {
+   gradleVersion = '2.14.1' //version required
+}

@@ -1,0 +1,9 @@
+speakerId,speakerName,presentationTitle,durationInMinutes,audienceLevel
+1,Naresha K,Functional Programming with Groovy,60,INTERMEDIATE
+2,Venkat,Angular JS for Java Programmers,60,INTERMEDIATE
+3,Leena,Open Source MDM,20,BEGINNER
+1,Naresha K,Designing with Traits,90,INTERMEDIATE
+4,Debashish Ghosh,Property based Testing,60,ADVANCED
+2,Venkat,Test Driving JavaScript,90,BEGINNER
+5,Scott Davis,Exploring MEAN stack,90,BEGINNER
+2,Venkat,The Power of Functional Programming,60,BEGINNER
